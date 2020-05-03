@@ -21,7 +21,7 @@ public class CalculadorDeClasses implements Calculavel {
     }
 
     @Override
-    public BigDecimal tatalizar(Object obj) {
+    public BigDecimal totalizar(Object obj) {
         BigDecimal somar = somar(obj);
         BigDecimal subtrair = subtrair(obj);
         return somar.subtract(subtrair);

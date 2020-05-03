@@ -8,5 +8,5 @@ public interface Calculavel {
 
     public BigDecimal subtrair(Object obj);
 
-    public BigDecimal tatalizar(Object obj);
+    public BigDecimal totalizar(Object obj);
 }
