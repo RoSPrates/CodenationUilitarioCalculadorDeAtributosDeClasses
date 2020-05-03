@@ -4,9 +4,9 @@ import java.math.BigDecimal;
 
 public interface Calculavel {
 
-    public BigDecimal somar();
+    public BigDecimal somar(Object obj) throws IllegalAccessException;
 
-    public BigDecimal subtrair();
+    public BigDecimal subtrair(Object obj);
 
-    public BigDecimal tatalizar();
+    public BigDecimal tatalizar(Object obj);
 }
