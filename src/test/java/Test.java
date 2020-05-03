@@ -1,5 +1,3 @@
-import com.challenge.desafio.CalcularPontos;
-
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
 
@@ -13,7 +11,6 @@ public class Test {
         anotherTest.setA(10);
         System.out.println(t.test(t, 0, anotherTest));
         System.out.println(t.b);
-        System.out.println(new CalcularPontos().getBd());
         BigDecimal big1 = BigDecimal.ZERO;
         BigDecimal big2 = new BigDecimal("10");
         System.out.println(big1 == big2);
